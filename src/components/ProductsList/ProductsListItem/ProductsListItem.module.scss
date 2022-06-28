@@ -1,0 +1,28 @@
+.ProductsListItem {
+    
+    li {
+        padding: 10px 0;
+    }
+
+    .Item {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .IdWrapper {
+        width: 30px;
+    }
+
+    .NameWrapper {
+        width: 300px;
+    }
+
+    .YearWrapper {
+        width: 60px;
+    }
+
+    span {
+        padding: 0 10px;
+        display: inline-block;
+    }
+}
