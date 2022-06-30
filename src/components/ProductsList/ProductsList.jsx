@@ -1,16 +1,13 @@
 import React from 'react'
 import classes from './ProductsList.module.scss'
-import { useSelector } from 'react-redux'
 import ProductsListItem from './ProductsListItem/ProductsListItem'
 
-const ProductsList = () => {
-  const { products } = useSelector(state => state.products)
-    console.log('products', products)
-    console.log('products.data', products.data)
+const ProductsList = ({ filteredList }) => {
+
     return (
         <div className={classes.ProductsList}>
             <ul>
-                {products.data.map((i, index) => {
+                {filteredList?.map((i, index) => {
                     return(
                         <ProductsListItem 
                             key={index}

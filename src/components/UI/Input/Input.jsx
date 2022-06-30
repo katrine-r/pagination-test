@@ -3,7 +3,7 @@ import classes from './Input.module.scss'
 
 const Input = (props) => {
     return (
-        <input {...props} className={classes.Input}/>
+        <input {...props} className={classes.Input} />
     )
 }
 
