@@ -1,0 +1,18 @@
+.PaginationItem {
+    padding: 10px;
+    color: #C1D0D9;
+    border: 1px solid #7EF2A7;
+    box-sizing: border-box;
+}
+
+.PaginationItem.active {
+  color: #191F26;
+  background-color: #7EF2A7;
+}
+
+.PaginationItem:hover {
+  cursor: pointer;
+  color: #191F26;
+  border: rgba(126, 242, 167, 0.5);
+  background-color: rgba(126, 242, 167, 0.5);
+}
